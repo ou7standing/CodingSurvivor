@@ -1,3 +1,5 @@
+package org.example;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -23,6 +25,8 @@ public class Challenge4 {
             }
             map1.put (a, 1);
         }
+
+// TODO: 4/21/2023  method to be extracted
 
         Map<Character, Integer> map2 = new HashMap<> ();
         for (char a : secondWordCharArr) {
