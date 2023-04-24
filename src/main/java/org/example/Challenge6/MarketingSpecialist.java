@@ -9,7 +9,7 @@ class MarketingSpecialist implements Worker {
 
     public void spendMoney(double marketingCampaignCost) throws Exception {
         if (marketingCampaignCost > budget) {
-            throw new Exception ("Marketing Campaign cost cannot exceed budget");
+            throw new Exception ("Marketing Campaign cost cannot exceed budget.");
         }
         budget -= marketingCampaignCost;
     }
